@@ -1,2 +1,4 @@
 # docker-nodejs-java-alpine
-NodeJS 10 + Java 8 in Linux Alpine
+
+- NodeJS 10.16.3 
+- Java 8u222
