@@ -4,3 +4,8 @@
 
 - NodeJS 10.16.3 
 - Java 8u212
+
+### Usage
+```shell script
+docker pull dawnwords/docker-alpine-jdk8-node10-yarn
+```
