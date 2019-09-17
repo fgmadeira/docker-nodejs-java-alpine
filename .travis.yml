@@ -1,0 +1,11 @@
+sudo: 'required'
+
+services:
+  - 'docker'
+
+script:
+  - docker build -t dawnwords/docker-alpine-jdk8-node10-yarn .
+
+after_success:
+  - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+  - docker push dawnwords/docker-alpine-jdk8-node10-yarn
